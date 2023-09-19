@@ -12,7 +12,7 @@ let userEmail;
 const id = Symbol('123')
 const anotherId = Symbol('123')
 
-console.log(id === anotherId);
+// console.log(id === anotherId);
 
 // const bigNumber = 3456543576654356754n
 
@@ -29,10 +29,10 @@ let myObj = {
 }
 
 const myFunction = function(){
-    console.log("Hello world");
+    // console.log("Hello world");
 }
 
-console.log(typeof anotherId);
+// console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3 (for details read of datatypes)
 
@@ -55,3 +55,27 @@ Return type of variables in JavaScript :-
        Object  =>  object
 
 */
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//  Stack (Primitive data Types), Heap (Non-Primitive DataTypes)
+
+let myName = "Rajesh"
+
+let anotherName = myName
+anotherName = "Raja"
+
+console.log(anotherName);
+console.log(myName);
+
+let userOne = {
+    email : "user@email.com",
+    upi   : "user@ybl"
+}
+
+let userTwo = userOne;
+
+userTwo.email = "rajesh@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);

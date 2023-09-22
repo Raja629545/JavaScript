@@ -33,5 +33,5 @@ const myObject = {
 }
 
 for (const [key, value] of myObject) {
-    console.log(key, ':-', value);   // we see that for of ioop in not iterable for object
+    console.log(key, ':-', value);   // we see that for-of ioop is not iterable for object
 }

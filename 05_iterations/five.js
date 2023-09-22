@@ -1,4 +1,4 @@
-const coding = ["java", "python", "ruby", "cpp", "js"]
+const coding = ["java", "python", "ruby", "cpp", "js","swift"]
 
 // type-1 --->  
 coding.forEach(function (val){

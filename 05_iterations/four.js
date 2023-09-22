@@ -18,7 +18,7 @@ const map = new Map()
 map.set('IN', "India")
 map.set('USA', "United States of America")
 map.set('Fr', "France")
-                // for in loop not work in map because it is not iterable
+                // for-in loop not work in "map" because object is not iterable
 for (const key in map) {
    console.log(map[key]);
 }

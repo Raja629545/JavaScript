@@ -7,4 +7,6 @@ const newNums = myNumers
                 .map( (num) => num + 1)
                 .filter( (num) => num >= 40)
 
+    //   we can use multiple function together
+
 console.log(newNums);

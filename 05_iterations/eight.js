@@ -7,6 +7,9 @@ const myNum = [1, 2, 3]
 
 const myTotal = myNum.reduce((acc, currval) => ( acc + currval), 0)
 
+// acc --> Accumulator    
+// currval --> Current Value
+
 console.log(myTotal);
 
 const shoppingCart = [

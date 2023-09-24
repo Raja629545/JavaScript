@@ -1,4 +1,4 @@
-const myNum = [1, 2, 3]
+const myNum = [1, 2, 3, 4]
 
 // const myTotal = myNum.reduce(function (acc, currVal) {
 //     console.log(`acc is ${acc} and currval is ${currVal}`);
@@ -8,7 +8,7 @@ const myNum = [1, 2, 3]
 const myTotal = myNum.reduce((acc, currval) => ( acc + currval), 0)
 
 // acc --> Accumulator    
-// currval --> Current Value
+// currval --> Current Value 
 
 console.log(myTotal);
 

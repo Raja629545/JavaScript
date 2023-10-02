@@ -15,13 +15,14 @@
     }
 
     const changeText = function(){
-        document.querySelector('h1').innerHTML = "Raja Halder"
+        document.querySelector('h1').innerHTML = "Raja Halder"   // change the heading of the page
     }
     
-    const set = setTimeout(changeText, 2000)
+   
 
     const changeMe = setTimeout(changeText, 2000)
 
+    // apply clearTimeout in an Event
     document.querySelector('#stop').addEventListener('click', function(){
         clearTimeout(changeMe)
         console.log("STOPPED")

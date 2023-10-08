@@ -1,21 +1,20 @@
-class user{
-    constructor(username){
+class user {
+    constructor(username) {
         this.username = username;
     }
-
-    logMe(){
+    logMe() {
         console.log(`UserName is ${this.username}`);
     }
 
-    }
+}
 
-class Teacher extends user{
-    constructor(username, email, password){
+class Teacher extends user {
+    constructor(username, email, password) {
         super(username);
         this.email = email;
         this.password = password;
     }
-    addCourse(){
+    addCourse() {
         console.log(`A new course was added by ${this.username}`);
     }
 }

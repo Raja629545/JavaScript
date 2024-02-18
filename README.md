@@ -10,6 +10,9 @@ Also I started my interview preparation for javascript and what I have learned I
 If you have any query feel free to contact me.
 
 email-id : rajesh713428@gmail.com.
+
 Linkedin : https://www.linkedin.com/in/rajesh-halder-b28a36236/.
+
+
 
 

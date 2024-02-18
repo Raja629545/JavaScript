@@ -9,7 +9,7 @@ function test(){
 
     if(true){
         let a = "Hi";
-        console.log(a);
+        console.log(a);   // This is called variable shadowing where a is printed 2 value {Hi, Hello}
     }
     console.log(a);
 }
@@ -22,7 +22,7 @@ function test1(){
 
     if (true) {
        let a = "Hi";
-  //   var b = "GoodBye";     //! This is called "Illegal Shadowing" because when we declare under let then  we did not declare that variable under "var"
+     //  var b = "GoodBye";     //! This is called "Illegal Shadowing" because when we declare under let  then  we did not declare that variable under "var"
        console.log(a);
        console.log(b);
     }
@@ -32,6 +32,13 @@ function test1(){
 }
 
 //test1();
+
+//Declaration without initialization
+    var a;      // now if we declare var in this way it is fine
+    let b;      // same with the let
+    const c = 5;    // but in the const we must initialize the value of the const variable otherwise it give an error
+
+    // Important note : Var and let can be re-initialized but const can never been initialized
 
 function test2(){
     let a = 56;

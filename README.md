@@ -7,8 +7,9 @@ You can check out the playlist : https://youtube.com/playlist?list=PLu71SKxNbfoB
 
 Also I started my interview preparation for javascript and what I have learned I share my code to this repository
 
-If you have any query feel free to contact me -->
-email-id : rajesh713428@gmail.com
-Linkedin : https://www.linkedin.com/in/rajesh-halder-b28a36236/
+If you have any query feel free to contact me.
+
+email-id : rajesh713428@gmail.com.
+Linkedin : https://www.linkedin.com/in/rajesh-halder-b28a36236/.
 
 
